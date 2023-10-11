@@ -1,0 +1,128 @@
+.header-container{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+.left{
+  color:white;
+  width:200px;
+  
+  
+}
+.logo{
+    width:120px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.middle{
+    color:white;
+    flex:1;
+
+
+}
+.middle-container{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.middle-container > div{
+    margin-top: 40px;
+    margin-left: 15px;
+    font: 1em sans-serif;
+    font-size: 14px;
+    
+    
+
+}
+.middle-container > div:hover{
+    cursor: pointer;
+}
+
+.right{
+    color:white;
+    width:200px;
+
+}
+.right-container{
+    display: flex;
+}
+.right-container > div{
+    width:10px;
+    margin-top: 40px;
+    margin-left: 28px;
+}
+.right-container > div:hover{
+    cursor: pointer;
+}
+.img-header{
+    width:23px;
+}
+.h1{
+    margin-left: 370px;
+    margin-top: 90px;
+    font-size: 46px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    row-gap: 70px;
+    text-align: center;
+    font-size: 24px;
+}
+.icecreams{
+    width:400px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    
+}
+.colum-foot{
+    width:350px;
+
+}
+ul{
+    color: #BE9509;
+    list-style-type: none;
+    
+}
+ul:hover{
+    cursor: pointer;
+}
+h4{
+    color:#BE9509;
+    margin-left:40px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: red;
+    color:white;
+    width:20px;
+    text-align: center;
+    border-radius: 50%;
+    right: 100px;
+    top:30px;
+
+}
+.watsApp{
+    position: fixed;
+    bottom:15px;
+    right:15px;
+}
+.watsApp:hover{
+    cursor: pointer;
+}
